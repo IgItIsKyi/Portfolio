@@ -35,22 +35,22 @@
       </nav>
     <!---- End of Navbar ---->
     <!----- Contact box ----->
-    <div class="contact-box">
+    <form action="https://formsubmit.co/83a141ec7cb8ddeb7f47a69f08a2eb9e" method="POST" class="contact-box">
       <h1 class="text-light text-center">Contact Me Here</h1>
       <!---      Form Input     ---->
       <div class="row d-flex">
         <div class="col mx-4">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          <input type="text" name="First name" class="form-control" placeholder="First name" aria-label="First name" required>
         </div>
         <div class="col mx-4">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          <input type="text" name="Last name" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
       </div>
       <div class="m-4">
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" required>
       </div>
       <div class="m-4 contact-msg">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Input your message here."></textarea>
+        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Input your message here." required></textarea>
       </div>
       <div class="d-grid gap-1 col-4 mx-auto">
         <button class="btn btn-primary" type="submit">Submit</button>
@@ -61,7 +61,7 @@
       <div>
 
       </div>
-    </div>
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
