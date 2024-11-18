@@ -94,20 +94,13 @@ body {
 }
 
 .pj-gal {
-  margin-top: 175px;
+  margin-top: 10%;
    margin-bottom: 5px;
 }
 
-#csl-gallery {
-  background-color: rgba(0, 0, 0, 0.681);
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 #csl-gallery img {
-  background: none;
-  padding: 0 25%;
-  max-height: 200px;
-  width: 200px;
+  object-fit: cover;
+  height: 200px;
 }
 /* End Projects Page */
 
@@ -166,9 +159,18 @@ body {
     max-height: 150px;
   }
 
-  .pj-gal {
-    margin-top: 10px;
-    margin-bottom: 20px;
+}
+
+@media (min-width: 992) and (max-width: 1228) {
+  .most-recent-box img {
+    float: none;
+    outline: solid 2px white;
+    margin: 10%;
+    max-height: 150px;
+  }
+
+  .most-recent-text p{
+    min-width: 100%;
   }
 }
   
