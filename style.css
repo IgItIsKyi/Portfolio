@@ -94,62 +94,83 @@ body {
 }
 
 .pj-gal {
-  margin-top: 200px;
+  margin-top: 175px;
+   margin-bottom: 5px;
 }
+
 #csl-gallery {
-  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.681);
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 #csl-gallery img {
+  background: none;
+  padding: 0 25%;
   max-height: 200px;
+  width: 200px;
 }
 /* End Projects Page */
 
 
 @media (max-width: 991px) {
-    body {
-      background-position: right;
-      background-size:cover;
-      
-    }
-    .socials {
-      display: none;  /* Hide by default when navbar is collapsed */
-    }
-
-    /* Home Page */
-    .pfp {
-      margin-top: 2px;
-      max-height: 250px;
-      max-width: 234px;
-      float: none;
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-
-    .pfp-text {
-      font-size: 28px;
-      margin: 10px 5px;
-    }
-
-    .info-section {
-      padding-bottom: 30px;
-    }
-
-    .info-section h2 {
-      font-size: 24px;
-    }
-
-    .info-section p {
-      margin: 30px 20px;
-      font-size: 18px;
-    }
-
-    /* End Home Page */
-    /* Contact Page */
-    .contact-box {
-      outline: none;
-      margin: 25% 5%;
-    }
+  body {
+    background-position: right;
+    background-size:cover;
+    
   }
+  .socials {
+    display: none;  /* Hide by default when navbar is collapsed */
+  }
+
+  /* Home Page */
+  .pfp {
+    margin-top: 2px;
+    max-height: 250px;
+    max-width: 234px;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .pfp-text {
+    font-size: 28px;
+    margin: 10px 5px;
+  }
+
+  .info-section {
+    padding-bottom: 30px;
+  }
+
+  .info-section h2 {
+    font-size: 24px;
+  }
+
+  .info-section p {
+    margin: 30px 20px;
+    font-size: 18px;
+  }
+
+  /* End Home Page */
+  /* Contact Page */
+  .contact-box {
+    outline: none;
+    margin: 25% 5%;
+  }
+  /* End of Contact Page */
+
+  /* Projects Page */
+  .most-recent-box img {
+    float: none;
+    outline: solid 2px white;
+    margin: 10%;
+    max-height: 150px;
+  }
+
+  .pj-gal {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
   
   @media (min-width: 992px) {
     .socials {
