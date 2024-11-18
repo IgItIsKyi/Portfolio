@@ -71,6 +71,39 @@ body {
   width: 95%;
   background-color: white;
 }
+/* End Contact Page */
+/* Projects Page */
+.tt-pj {
+  font-size: 64px;
+}
+
+
+.most-recent-box h2{
+  font-size: 36px;
+}
+.most-recent-box img {
+  outline: solid 2px white;
+  float: right;
+  height: 350px;
+  margin-right: 10%;
+  margin-left: 20px;
+}
+
+.most-recent-box p {
+  font-size: 24px;
+}
+
+.pj-gal {
+  margin-top: 200px;
+}
+#csl-gallery {
+  margin-top: 100px;
+}
+#csl-gallery img {
+  max-height: 200px;
+}
+/* End Projects Page */
+
 
 @media (max-width: 991px) {
     body {
