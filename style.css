@@ -146,6 +146,7 @@ body {
     /* End Home Page */
     /* Contact Page */
     .contact-box {
+      outline: none;
       margin: 25% 5%;
     }
   }
