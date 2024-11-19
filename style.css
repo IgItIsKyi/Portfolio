@@ -196,8 +196,7 @@ body {
   outline: solid 2px white;
   float: right;
   height: 350px;
-  margin-right: 10%;
-  margin-left: 20px;
+  margin: auto 15%;
 }
 
 
@@ -212,11 +211,35 @@ body {
 }
 
 #csl-gallery img {
-  object-fit: cover;
-  height: 200px;
+  height: 300px;
+  object-fit: contain;
 }
 /* End Projects Page */
 
+@media (max-width: 1336) {
+
+  .most-recent-img a {
+    width: 100%;
+  }
+  .most-recent-box img {
+    clear: both;
+    display: block;
+    outline: solid 2px white;
+    margin: auto 15%;
+    height: 750px;
+    width: 100%;
+  }
+  .most-recent-text p {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .pj-gal {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+}
 
 @media (max-width: 991px) {
   body {
@@ -268,37 +291,17 @@ body {
   .most-recent-box img {
     float: none;
     outline: solid 2px white;
-    margin: auto 15%;
-    max-height: 350px;
+    margin: auto 50%;
+    height: auto;
+    margin: auto 10%;
+    max-width: 80%;
   }
 
   
 
 }
 
-@media (min-width: 992) and (max-width: 1228) {
-  .most-recent-box img {
-    float: none;
-    outline: solid 2px white;
-    margin: auto 15%;
-    max-height: 350px;
-  }
 
-  
-
-  .pj-gal {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-}
-
-@media ( min-width: 992) and (max-width: 1261px) {
-  .most-recent-box img {
-    float: none;
-    margin: auto 25%;
-    max-height: 350px;
-  }
-}
   
   @media (min-width: 992px) {
     .socials {
