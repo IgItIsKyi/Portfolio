@@ -185,7 +185,47 @@ body {
   font-size: 24px;
 }
 
+.about-me {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  margin: auto 25%;
+  border-radius: 4%;
+  
+}
+
+.about-me-edu {
+  width: 50%;
+  order: 2;
+  
+}
+
+
+.about-me-edu p { 
+  font-size: 20px;
+}
+
+.about-me-exp {
+  width: 50%;
+  order: 1;
+}
+
+.about-me-exp p {
+  font-size: 20px;
+}
+
+
+.about-me-skills {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  margin: auto 25%;
+  border-radius: 4%;
+  
+}
+
 .info-buttons {
+  margin-top: 25px;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -335,6 +375,24 @@ body {
     max-width: 80%;
   }
 
+  .about {
+    width: 80%;
+  }
+
+  .about-me {
+    flex-direction: column;
+    margin: auto 5%;
+  }
+
+  .about-me-exp {
+    order: 1;
+    width: 100%;
+  }
+
+  .about-me-edu {
+    width: 100%;
+    order: 2;
+  }
   
 
 }
