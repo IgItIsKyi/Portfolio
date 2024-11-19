@@ -375,9 +375,6 @@ body {
     max-width: 80%;
   }
 
-  .about {
-    width: 80%;
-  }
 
   .about-me {
     flex-direction: column;
