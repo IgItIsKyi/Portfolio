@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/background.jpg);
+    background-image: url(https://igitiskyi.github.io/Portfolio//images/background.jpg);
     background-size: cover;
     height: 100vh;
 
@@ -123,26 +123,49 @@ body {
 /* Home page */
 
 .quick-me {
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
-.pfp-text {
-  margin: 0 5%;
-    float: left;
-    text-align: center;
-    width: 100%;
-    font-size: 68px;
+.pfp-img {
+  order: 2;
+  margin-right: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 .pfp {
-    float: right;
     border-radius: 50%;
     height: 300px;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 15%;
+}
+.pfp-text {
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5%;
+  order: 1;
+  width: 100%;
+}
+
+.pfp-text h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  order: 1;
+  font-size: 68px;
+}
+
+.pfp-text h3 {
+  order: 2;
+  margin-top: 0px;
+  font-size: 36px;
+  opacity: 75%;
+}
+
+.pfp-text-btns {
+  order: 3;
+  align-items: center;
+  width: 100%;
 }
 
 .info-section {
@@ -218,6 +241,15 @@ body {
 
 @media (max-width: 1336) {
 
+  .pfp-img {
+    order: 1;
+    margin: auto 25%;
+  }
+
+  .quick-me {
+    flex-direction: column;
+  }
+
   .most-recent-img a {
     width: 100%;
   }
@@ -252,18 +284,24 @@ body {
   }
 
   /* Home Page */
+  .quick-me {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .pfp-img {
+    order: 1;
+    margin: auto 25%;
+  }
+
   .pfp {
-    margin-top: 2px;
     max-height: 250px;
     max-width: 234px;
-    float: none;
-    margin-right: 0;
-    margin-bottom: 20px;
   }
 
   .pfp-text {
     font-size: 28px;
-    margin: 10px 5px;
+    margin: 5px;
   }
 
   .info-section {
