@@ -188,7 +188,6 @@ body {
 .about-me {
   text-align: left;
   display: flex;
-  flex-direction: row;
   margin: auto 25%;
   border-radius: 4%;
   
@@ -200,15 +199,47 @@ body {
   
 }
 
+.edu-box {
+  border: 2px solid #ccc; 
+  padding: 15px;     
+  border-radius: 8px;  
+  margin-bottom: 20px;     
+  background-color: #f9f9f9;
+}
+
+.edu-box-date {
+  float: right;
+  font-size: 14px;
+  color: gray;
+  margin-top: 0px;
+}
+
+.exp-box {
+  border: 2px solid #ccc; 
+  padding: 15px;           
+  border-radius: 8px;    
+  margin-bottom: 20px; 
+  background-color: rgba(0, 0, 0, 0.612); 
+}
+
+.exp-box-date {
+  float: right;
+  font-size: 14px;
+  color: gray;
+  margin-top: 0px;
+}
 
 .about-me-edu p { 
-  font-size: 20px;
+  text-align: left;
+  font-size: 16px;
 }
 
 .about-me-exp {
   width: 50%;
   order: 1;
 }
+
+
 
 .about-me-exp p {
   font-size: 20px;
@@ -229,6 +260,20 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+}
+
+.dev-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.dev-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
 }
 
 /* End Home page */
@@ -400,4 +445,21 @@ body {
     .socials {
       display: block; /* Show LinkedIn and email link when navbar is expanded */
     }
+
+  .about-me {
+    flex-direction: column;
+    margin: auto 5%;
+  }
+
+  .about-me-exp {
+    order: 1;
+    width: 100%;
+  }
+
+  .about-me-edu {
+    width: 100%;
+    order: 2;
+  }
+  
+
   }
