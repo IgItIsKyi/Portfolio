@@ -250,7 +250,7 @@ body {
   text-align: right;
   display: flex;
   flex-direction: row;
-  margin: auto 25%;
+  margin: auto;
   border-radius: 4%;
   
 }
